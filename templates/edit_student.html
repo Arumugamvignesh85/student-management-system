@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Student</title>
+</head>
+<body>
+
+<h1>Edit Student</h1>
+
+<form method="POST">
+
+    <p>ID: {{ student[0] }}</p>
+
+    <input type="text"
+           name="name"
+           value="{{ student[1] }}"
+           required>
+
+    <br><br>
+
+    <input type="text"
+           name="department"
+           value="{{ student[2] }}"
+           required>
+
+    <br><br>
+
+    <input type="number"
+           name="marks"
+           value="{{ student[3] }}"
+           required>
+
+    <br><br>
+
+    <button type="submit">
+        Update Student
+    </button>
+
+</form>
+
+</body>
+</html>

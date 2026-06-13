@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
