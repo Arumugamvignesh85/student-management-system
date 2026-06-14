@@ -1,6 +1,1 @@
-## How to Run
-1. Clone the repo: git clone https://github.com/Arumugamvignesh85/student-management-system.git
-2. cd "Student  management system"
-3. Install dependencies:  pip install -r requirements.txt
-4. Run: python app.py
-5. Open http://127.0.0.1:5000 in your browser
+Run the project:https://student-management-system-ptkc.onrender.com
